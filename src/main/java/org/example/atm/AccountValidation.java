@@ -15,6 +15,7 @@ public class AccountValidation {
         System.out.println("arunaccountNumber" + arunAccount.accountNumber + "name" + arunAccount.user);
         DebitCard arunDebitCard = as.issueCard(arunAccount);
         System.out.println(arunDebitCard);
+        System.out.println("");
 
     }
 }
