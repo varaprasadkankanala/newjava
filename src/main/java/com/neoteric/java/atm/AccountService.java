@@ -1,4 +1,4 @@
-package org.example.atm;
+package com.neoteric.java.atm;
 import java.util.Date;
 import java.util.UUID;
 
@@ -14,7 +14,7 @@ public class AccountService {
 
     }
 
-    public DebitCard issueCard( Account account1 )
+    public DebitCard issueCard( Account account1  )
     {
         DebitCard d1 = new DebitCard();
         d1.atmNumber=UUID.randomUUID().toString();

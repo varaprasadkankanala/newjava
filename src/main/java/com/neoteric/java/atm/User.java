@@ -1,4 +1,4 @@
-package org.example.atm;
+package com.neoteric.java.atm;
 
 public class User {
     String name;

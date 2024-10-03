@@ -1,4 +1,4 @@
-package org.example.atm;
+package com.neoteric.java.atm;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package org.example.javatdd;
+package com.neoteric.java.date;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

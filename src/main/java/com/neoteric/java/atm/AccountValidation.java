@@ -1,4 +1,4 @@
-package org.example.atm;
+package com.neoteric.java.atm;
 
 public class AccountValidation {
     public static void main(String[] args) {
@@ -11,11 +11,12 @@ public class AccountValidation {
 
 
         Account arunAccount = as.createAccount(arunkumar);
-        System.out.println("adharnumber" + arunkumar.adharNumber);
         System.out.println("arunaccountNumber" + arunAccount.accountNumber + "name" + arunAccount.user);
+        System.out.println("______________________________________");
         DebitCard arunDebitCard = as.issueCard(arunAccount);
+        System.out.println("______________________________________");
         System.out.println(arunDebitCard);
-        System.out.println("");
+        System.out.println("______________________________________");
 
     }
 }
