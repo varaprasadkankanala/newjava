@@ -1,4 +1,4 @@
-package org.example.javatdd;
+package org.example.date;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
